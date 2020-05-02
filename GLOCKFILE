@@ -3,4 +3,4 @@ github.com/moby/moby aa6a9891b09cce3d9004121294301a30d45d998d
 github.com/docker/go-units 519db1ee28dcc9fd2474ae59fca29a810482bfb1
 github.com/fsouza/go-dockerclient 9abb9ed850fd14325e1f2c7d4fa47960baf980eb
 github.com/gorilla/mux 75dcda0896e109a2a22c9315bca3bb21b87b2ba5
-golang.org/x/net a04bdaca5b32abe1c069418fb7088ae607de5bd0
+golang.org/x/net e0ff5e5a1de5b859e2d48a2830d7933b3ab5b75f
