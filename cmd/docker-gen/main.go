@@ -5,8 +5,10 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"os/signal"
 	"path/filepath"
 	"sync"
+	"syscall"
 
 	"github.com/BurntSushi/toml"
 	"github.com/JoelLinn/docker-gen"
@@ -111,6 +113,10 @@ func initFlags() {
 }
 
 func main() {
+	// SIGHUP is used to trigger generation but go programs call os.Exit(2) at default.
+	// Ignore the signal until the handler is registered:
+	signal.Ignore(syscall.SIGHUP)
+
 	initFlags()
 
 	if version {
