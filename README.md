@@ -1,7 +1,7 @@
 docker-gen
 =====
 
-![latest 0.8.1](https://img.shields.io/badge/latest-0.8.1-green.svg?style=flat)
+![latest 0.8.2](https://img.shields.io/badge/latest-0.8.2-green.svg?style=flat)
 [![Build Status](https://travis-ci.org/joellinn/docker-gen.svg?branch=master)](https://travis-ci.org/github/joellinn/docker-gen)
 ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)
 
