@@ -1,6 +1,7 @@
 FROM golang:alpine as builder
 
 ARG SOURCE_REPO=github.com/JoelLinn/docker-gen
+ENV GO111MODULE=auto
 
 RUN apk add --no-cache \
     git \
